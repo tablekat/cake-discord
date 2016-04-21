@@ -1,6 +1,6 @@
 # cake-discord
 
-A mild attempt to bring [Cake Theme](http://danielpintilei.cf/Cake/) to [Discord](https://discordapp.com/). I'm still not sure how I feel about it!! Not completed either, but enough to be useable.
+A mild attempt to bring [Cake Theme](http://danielpintilei.cf/Cake/) to [Discord](https://discordapp.com/) (via [BetterDiscord](https://betterdiscord.net/home/) themes). I'm still not sure how I feel about it!! Not completed either, but enough to be useable.
 
 ![Preview](http://i.imgur.com/CXDJaMJ.png)
 
