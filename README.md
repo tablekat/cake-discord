@@ -2,6 +2,8 @@
 
 A mild attempt to bring [Cake Theme](http://danielpintilei.cf/Cake/) to [Discord](https://discordapp.com/). I'm still not sure how I feel about it!! Not completed either, but enough to be useable.
 
+![Preview](http://i.imgur.com/CXDJaMJ.png)
+
 ### References
 jsfiddle with colors: https://jsfiddle.net/dnrakdgu/
 
