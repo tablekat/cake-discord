@@ -1,0 +1,128 @@
+//META{"name":"Cake_Theme","description":"Yummy theme","author":"tablekat","version":"1.0"}*//
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    /* variable */
+	border:3px solid rgba(255,255,255,0) !important;
+	background-color:#c092ce !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+	/* variable */
+    border:3px solid rgba(255,255,255,0) !important;
+	background-color:rgba(0,0,0,0.3) !important;
+}
+
+.guilds-wrapper{
+    background-color: #221d19; /* $dark */
+}
+
+.guild-channels{
+    background-color: #5c3c2b; /* $selection */
+    background-color: #3B2D22; /* custom */
+}
+.guilds li.unread .guild-inner:before{
+    background: #c092ce; /* $variable */
+}
+
+.guild-header > header{
+    background-color: #2e231b; /* $background */
+	box-shadow: none !important;
+	color: #efeef1; /* foreground */
+}
+.account{
+    background-color: #2e231b; /* $background */
+}
+.links{
+    background-color: #2e231b; /* $background */
+}
+
+
+.guild-channels ul .channel-text.selected {
+    background: -webkit-linear-gradient(left,#5c3c2b 85%,#5d3d2c);
+    background: linear-gradient(90deg,#5c3c2b 85%,#5d3d2c);
+    background-color: #5c3c2b; /* $selection */
+}
+.channel-text:hover{
+    background: linear-gradient(90deg,#5d4033 85%,#5e4134) !important;
+    background-color: #5d4033 !important; /* $highlight-bg */
+}
+.guild-channels ul .channel-text.selected a{
+    color: #c092ce !important; /* variable */
+}
+.guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted) a{
+    color: #efeef1 !important; /* foreground */
+}
+
+
+.messages{
+    background-color: #4d3829; /*$background2*/
+}
+.theme-dark .chat .title-wrap{
+    background-color: #4d3829; /*$background2*/
+    border-bottom: 1px solid #221d19; /* dark */
+}
+.theme-dark .chat .title-wrap .topic{
+    color: #a56e5f; /* string */
+}
+.channel-textarea{
+    background-color: #4d3829; /*$background2*/
+}
+.theme-dark .chat>.content, .theme-dark .friends-table, .theme-dark .messages-wrapper{
+    background-color: #4d3829; /*$background2*/
+}
+.theme-dark .chat form .typing{
+    background-color: #4d3829 !important; /*$background2*/
+}
+.channel-members { 
+    background-color: #2e231b !important; /* $background */
+}
+
+.guilds li .guild-inner {
+	background: #120F0D !important; /* custom */
+}
+
+.guilds li.active .guild-inner {
+	background: #26211C; /* custom */
+} 
+
+.guilds li .guild-inner:hover {
+	background: #26211C; /* custom */
+}
+.guilds-separator:after {
+	background: #c092ce; /* variable */
+}
+
+.private-channels {
+    background-color: #5c3c2b; /* $selection */
+    background-color: #3B2D22; /* custom */
+}
+.private-channels .search-bar {
+    background-color: #2e231b; /* $background */
+}
+
+.guild-channels ul .channel.selected,
+.private-channels .channel.selected,
+.private-channels .search-result.selected,
+.private-channels .search-result:hover {
+	background:rgba(0,0,0,0.6) !important; /* this or the defintion above with gradient? */
+}
+.guild-channels ul .channel:not(.selected):hover,
+.private-channels .channel:not(.selected):hover {
+	background:rgba(0,0,0,0.3) !important;
+}
+.guild-channels ul .channel-text .channel-name:before{
+    color: #c092ce !important;
+}
+.account .btn {
+	background: #221d19; /* dark */
+}
+
+.theme-dark .friends-table .messages .message-group .comment .markup, .theme-dark .messages-wrapper .messages .message-group .comment .markup{
+    color: #efeef1 !important; /* foreground */
+}
+.theme-dark .friends-table .messages .message-group h2 span, .theme-dark .messages-wrapper .messages .message-group h2 span{
+    color: #c092ce; /* variable */
+}
+.theme-dark .friends-table .messages .message-group h2 strong, .theme-dark .messages-wrapper .messages .message-group h2 strong{
+    color: #fe9cc1; /* pink */
+}
