@@ -39,6 +39,7 @@ nyaaPlugin.prototype.start = function () {
             'left': '120px',
             'z-index': '10',
             'padding': '20px',
+            'width': '800px',
             'max-width': 'calc(100% - 200px)',
             'color': 'white',
             'overflow-y': 'auto',
